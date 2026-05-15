@@ -26,4 +26,51 @@ Draftpad is a draggable markdown-based Chrome extension built for students.
 - YouTube timestamps
 - Markdown export
 - Obsidian sync
-- AI summaries
+
+### Notes
+
+- Works on most websites
+- Does not run on chrome:// pages
+- Notes are stored locally in your browser
+  
+
+## Installation & Usage
+
+### 1. Download the Extension
+
+- Click the green `Code` button on this repository
+- Press `Download ZIP`
+- Extract the ZIP file
+
+---
+
+### 2. Open Chrome Extensions
+
+Open Chrome and go to:
+
+chrome://extensions
+
+Enable:
+
+Developer Mode
+
+(top-right corner)
+
+---
+
+### 3. Load the Extension
+
+- Click `Load Unpacked`
+- Select the extracted `Draftpad` folder
+
+The extension is now installed.
+
+---
+
+### 4. How to Use
+
+Open any website and press:
+
+Alt + N
+
+to open the Draftpad sidebar.
