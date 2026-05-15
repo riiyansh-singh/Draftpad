@@ -5,6 +5,8 @@ Draftpad is a draggable markdown-based Chrome extension built for students.
 ## Features
 
 - Alt + N toggle shortcut
+- Alt + S Smart Snip Selected Text
+- Alt + Y Insert YouTube Timestamp
 - Unlimited workspaces
 - Auto-saving notes
 - Minimal UI
