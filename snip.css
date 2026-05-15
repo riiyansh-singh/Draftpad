@@ -1,0 +1,9 @@
+#draftpad-sidebar{
+  position:fixed;
+  top:0;
+  right:0;
+  width:420px;
+  height:100vh;
+  border:none;
+  z-index:999999999;
+}

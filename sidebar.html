@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Draftpad</title>
+  <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+<div class="container">
+  <div class="topbar">
+    <h1>Draftpad</h1>
+
+    <select id="workspaceSelect">
+      <option value="physics">Physics</option>
+      <option value="maths">Maths</option>
+      <option value="chemistry">Chemistry</option>
+    </select>
+  </div>
+
+  <textarea id="editor" placeholder="# Start writing..."></textarea>
+
+  <div class="bottom-actions">
+    <button id="exportMd">Export MD</button>
+    <button id="copyNotion">Copy</button>
+  </div>
+</div>
+
+<script src="sidebar.js"></script>
+</body>
+</html>

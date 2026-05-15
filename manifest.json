@@ -1,0 +1,71 @@
+{
+  "manifest_version": 3,
+  "name": "Draftpad",
+  "description": "Markdown-powered study sidebar for students.",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle-sidebar": {
+      "suggested_key": {
+        "default": "Alt+N"
+      },
+      "description": "Toggle Draftpad Sidebar"
+    },
+    "smart-snip": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Smart Snip Selected Text"
+    },
+    "youtube-anchor": {
+      "suggested_key": {
+        "default": "Alt+Y"
+      },
+      "description": "Insert YouTube Timestamp"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sidebar.html",
+        "sidebar.css",
+        "sidebar.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "snip.css"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

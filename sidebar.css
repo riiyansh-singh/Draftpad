@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#0f1117;
+  color:white;
+}
+
+.container{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  padding:14px;
+  border-bottom:1px solid #222;
+}
+
+textarea{
+  flex:1;
+  background:transparent;
+  color:white;
+  border:none;
+  outline:none;
+  resize:none;
+  padding:16px;
+  font-size:14px;
+}
+
+.bottom-actions{
+  display:flex;
+  gap:10px;
+  padding:10px;
+}
+
+button{
+  flex:1;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background:#5865f2;
+  color:white;
+  cursor:pointer;
+}
+
+#draftpad-sidebar{
+  position:fixed;
+  top:0;
+  right:0;
+  width:420px;
+  height:100vh;
+  border:none;
+  z-index:999999;
+}
